@@ -1,5 +1,5 @@
 # Sistema Espediente
 
- Sistema feito para concorrer a vaga de uma empresa utilizando NodeJS e React. 
+ Sistema criado utilizando NodeJS e React, com o intuito de concorrer a uma vaga de uma empresa. 
  
- Após o usuário informar o período trabalhado, a aplicação o informa quanto tempo trabalhou no período da diurno e no período noturno.
+ Após o usuário informar o período trabalhado, a aplicação o informa quanto tempo trabalhou no período diurno e no período noturno.
