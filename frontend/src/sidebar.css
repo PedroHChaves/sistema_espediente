@@ -1,0 +1,55 @@
+aside{
+    width: 320px;
+    margin-bottom: 30px;
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px 20px;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+aside strong{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    color: #333;
+}
+
+aside form{
+    margin-top: 30px;
+}
+
+aside form .input-block{
+    
+}
+
+aside form .input-block label{
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+}
+
+aside form .input-block input{
+    width: 60%;
+    height: 32px;
+    font-size: 14px;
+    color: #555;
+}
+
+aside form button[type=submit]{
+    width: 100%;
+    border: 0;
+    margin-top: 30px;
+    background: #0f0;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
