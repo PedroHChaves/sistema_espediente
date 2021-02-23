@@ -1,6 +1,6 @@
 # Sistema Espediente
 
- Sistema criado utilizando NodeJS e React, como teste prático com o intuito de concorrer a uma vaga desenvolver fullstack jr em uma empresa. 
+ Sistema criado utilizando NodeJS e React, além de utilizar arquivos CSS, o framework de CSS materialize e os modulos do npm, express e cors. Ele tem por finalidade ser um teste prático com o intuito de concorrer a uma vaga desenvolver fullstack jr em uma empresa. 
  
 # Funcionamento
  A aplicação possui dois campos, um para adionar o horário inicial em que o usuário começou seu serviço e o outro para adicionar o horário final. 
