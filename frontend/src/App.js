@@ -1,22 +1,25 @@
+//Import modulos necessários
 import React, {useState} from "react"
 import axios from "axios"
 import 'materialize-css/dist/css/materialize.min.css';
 import M from "materialize-css";
 
-
+//Import do arquivos css
 import "./global.css"
 import "./sidebar.css"
 
 function App() {
 
+    //Cria as variáveis para obter o valor no input
     const [inicio, setInicio] = useState("")
     const [fim, setFim] = useState("")
 
+    //Inicializa os componentes do materialize
     function componentDidMount() {
-        // Auto initialize all the things!
         M.AutoInit();
     }
 
+    //Envia os dados obtidos para o backend
     function enviaBack(e){
         e.preventDefault()
         let request = {
