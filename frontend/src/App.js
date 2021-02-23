@@ -27,7 +27,7 @@ function App() {
             fim: fim
         }
 
-        axios.post("http://localhost:3333/", request).then(resp => {
+        axios.post(process.env.REACT_APP_API_URL, request).then(resp => {
             alert(resp.data.message)
         }).catch(err => {
             console.log(err)
