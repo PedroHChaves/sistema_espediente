@@ -21,6 +21,7 @@ app.post("/", (req, res) => {
     var hrs_diurnas = 0, hrs_noturnas = 0
     var min_diurnos = 0, min_noturnos = 0
 
+    //Começando a verificação dos horários
     //Verifica se a hora de inicío é menor que a hora de finalização
     if (hr_inicio <= hr_fim) {
 
